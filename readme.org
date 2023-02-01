@@ -1,0 +1,10 @@
+#+title: cologne-phonetics
+#+author: Ruben Philipp
+#+startup: showall 
+
+* cologne-phonetics
+
+This library intends to implement the [[https://de.wikipedia.org/wiki/Kölner_Phonetik][Cologne Phonetics]] algorithm into Common Lisp.
+It is in part influenced by the [[https://github.com/provinzkraut/cologne_phonetics][Python implementation]] of Tobias Bengfort and provinzkraut.
+
+
