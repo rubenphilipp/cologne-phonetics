@@ -2,6 +2,10 @@
 #+author: Ruben Philipp
 
 
-This library intends to implement the [[https://de.wikipedia.org/wiki/Kölner_Phonetik][Cologne Phonetics]] algorithm into Common Lisp.
-It is in part influenced by the [[https://github.com/provinzkraut/cologne_phonetics][Python implementation]] of Tobias Bengfort and provinzkraut.
+This library intends to implement the [[https://de.wikipedia.org/wiki/Kölner_Phonetik][Cologne Phonetics]] algorithm in Common Lisp.
+Essentially, this project is an interpretation of Janek Nouvertné's [[https://github.com/provinzkraut/cologne_phonetics][Python implementation]].
 
+
+** Dependencies
+
+- Quicklisp

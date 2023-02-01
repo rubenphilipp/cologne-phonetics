@@ -5,7 +5,7 @@
 ;;;
 ;;; Author: Ruben Philipp <ruben.philipp@folkwang-uni.de>
 ;;; Created: 2023-02-01, Essen
-;;; $$ Last modified:  19:01:00 Wed Feb  1 2023 CET
+;;; $$ Last modified:  20:08:20 Wed Feb  1 2023 CET
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (in-package :cl-user)
@@ -15,5 +15,7 @@
   (:use :common-lisp))
 ;;  (:import-from :cl-user )
 
+(ql:quickload "cl-ppcre")
+(ql:quickload "split-sequence")
 
 (in-package :cologne-phonetics)
