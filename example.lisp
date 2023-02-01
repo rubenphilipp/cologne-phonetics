@@ -1,11 +1,11 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Filename: example.lisp
 ;;;
-;;; Purpose: examples the cologne-phonetics package
+;;; Purpose: examples usage
 ;;;
 ;;; Author: Ruben Philipp
 ;;; Created: 2023-02-01
-;;; $$ Last modified:  21:54:43 Wed Feb  1 2023 CET
+;;; $$ Last modified:  21:56:45 Wed Feb  1 2023 CET
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (in-package :cl-user)
