@@ -11,7 +11,7 @@
 ;;;
 ;;; Creation date: 2023-02-01
 ;;;
-;;; $$ Last modified:  21:36:58 Wed Feb  1 2023 CET
+;;; $$ Last modified:  22:57:30 Thu Feb  2 2023 CET
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (in-package :cologne-phonetics)
@@ -55,7 +55,7 @@
 ;;; encode
 ;;;
 ;;; encode a string to Cologne Phonetics Code
-;;; A whitespace is interpreted as a wird break
+;;; A whitespace is interpreted as a word break
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 #|
 (cologne-phonetics::encode "Philipp Philip Phillip Filip Filipp")
