@@ -11,7 +11,7 @@
 ;;;
 ;;; Creation date: 2023-02-01
 ;;;
-;;; $$ Last modified:  22:57:30 Thu Feb  2 2023 CET
+;;; $$ Last modified:  22:13:51 Mon Mar 27 2023 CEST
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (in-package :cologne-phonetics)
@@ -72,10 +72,29 @@
     ;; word by word
     (loop for word in words
           collect
-          (let* (;; ignore additional special characters
-                 (data (cl-ppcre:regex-replace-all "[^a-z ]"
-                                                   word
-                                                   "")))
+          (let* (;; lowercase everything
+                 ;; RP  Mon Mar 27 22:09:39 2023
+                 (data (string-downcase word)))
+            ;; replace ß with s (results in code 8)
+            ;; RP  Mon Mar 27 22:11:14 2023
+            (setf data
+                  (cl-ppcre:regex-replace-all "ß"
+                                              data
+                                              "s"))
+            ;; replace umlauts with a vowel
+            ;; NB: As all vowels are later encoded with a 0,
+            ;; this turns every umlaut into an "a"
+            ;; RP  Mon Mar 27 22:12:30 2023
+            (setf data
+                  (cl-ppcre:regex-replace-all "äöü"
+                                              data
+                                              "a"))
+            ;; ignore additional special characters
+            ;; RP  Mon Mar 27 22:13:20 2023
+            (setf data
+                  (cl-ppcre:regex-replace-all "[^a-z ]"
+                                              data
+                                              ""))
             ;; [d,t replacements]
             ;; not before c,s,z
             (setf data
