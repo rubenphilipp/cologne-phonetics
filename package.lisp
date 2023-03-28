@@ -1,11 +1,20 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; filename: package.lisp
+;;; FILE
+;;; package.lisp
 ;;;
-;;; Purpose: definition of the cologne-phonetics package
+;;; PURPOSE
+;;; Definition of the cologne-phonetics package.
 ;;;
-;;; Author: Ruben Philipp <ruben.philipp@folkwang-uni.de>
-;;; Created: 2023-02-01, Essen
-;;; $$ Last modified:  20:08:20 Wed Feb  1 2023 CET
+;;; VERSION
+;;; 1.0.1
+;;;
+;;; AUTHOR
+;;; Ruben Philipp <ruben.philipp@folkwang-uni.de>
+;;;
+;;; CREATED
+;;; 2023-02-01, Essen
+;;;
+;;; $$ Last modified:  11:03:55 Tue Mar 28 2023 CEST
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (in-package :cl-user)
@@ -19,3 +28,6 @@
 (ql:quickload "split-sequence")
 
 (in-package :cologne-phonetics)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; EOF package.lisp

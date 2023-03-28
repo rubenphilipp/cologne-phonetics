@@ -1,11 +1,17 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; Filename: example.lisp
+;;; FILE
+;;; example.lisp
 ;;;
-;;; Purpose: examples usage
+;;; PURPOSE
+;;; Example for using the cologne-phonetics package.
 ;;;
-;;; Author: Ruben Philipp
-;;; Created: 2023-02-01
-;;; $$ Last modified:  15:10:32 Thu Feb  2 2023 CET
+;;; AUTHOR
+;;; Ruben Philipp
+;;;
+;;; CREATED
+;;; 2023-02-01
+;;;
+;;; $$ Last modified:  11:03:04 Tue Mar 28 2023 CEST
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (in-package :cl-user)
@@ -15,3 +21,6 @@
 
 
 (cologne-phonetics::encode "Philipp Philip Filip Filipp Fillipp")
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; EOF example.lisp

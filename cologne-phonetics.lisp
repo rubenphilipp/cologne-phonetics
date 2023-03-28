@@ -1,17 +1,24 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; cologne-phonetics
+;;; FILE
+;;; cologne-phonetics.lisp
 ;;;
-;;; Purpose: Common Lisp implementation of the Cologne Phonetics algorithm
+;;; PURPOSE
+;;; Common Lisp implementation of the Cologne Phonetics algorithm
 ;;;
 ;;; Credits: This package is based on the Python implementation
 ;;;          by Janek Nouvertné
 ;;;          (https://github.com/provinzkraut/cologne_phonetics)
 ;;;
-;;; Author: Ruben Philipp <ruben.philipp@folkwang-uni.de>
+;;; AUTHOR
+;;; Ruben Philipp <ruben.philipp@folkwang-uni.de>
 ;;;
-;;; Creation date: 2023-02-01
+;;; CREATED
+;;; 2023-02-01
 ;;;
-;;; $$ Last modified:  22:13:51 Mon Mar 27 2023 CEST
+;;; VERSION
+;;; 1.0.1
+;;;
+;;; $$ Last modified:  11:02:00 Tue Mar 28 2023 CEST
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (in-package :cologne-phonetics)
