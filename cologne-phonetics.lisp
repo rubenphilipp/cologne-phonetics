@@ -80,7 +80,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (defun apply-replacements (data &optional (replacements *col-ph-replacements*))
-  (reduce (lambda (acc x) (cl-ppcre:regex-replace-all (first x) acc (second x)))
+  (reduce (lambda (acc x) (regex-replace-all (first x) acc (second x)))
           replacements
           :initial-value data))
 
