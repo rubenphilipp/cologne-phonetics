@@ -1,6 +1,6 @@
 
 (asdf:defsystem #:cologne-phonetics
-  :description "cm with all additions loaded"
+  :description "An implementation of the Cologne Phonetics algorithm"
   :author "Ruben Philipp <ruben.philipp@folkwang-uni.de>"
   :license  ""
   :version "1.0.1"
