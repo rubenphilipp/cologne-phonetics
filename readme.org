@@ -10,8 +10,8 @@ This library is a Common Lisp-implementation of the [[https://de.wikipedia.org/w
 
 ** Install
 
-   Clone the repository into ~/quicklisp/local-projects or any other
-   directory seen by asdf (member of asdf:*central-registry*).
+   Clone the repository into =§HOME/quicklisp/local-projects/= or any
+   other directory seen by asdf (member of asdf:*central-registry*).
 
 ** Example Usage
 
