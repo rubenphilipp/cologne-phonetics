@@ -21,13 +21,8 @@
 
 (defpackage :cologne-phonetics
   (:nicknames :col-ph)
-  (:use :common-lisp))
-;;  (:import-from :cl-user )
-
-(ql:quickload "cl-ppcre")
-(ql:quickload "split-sequence")
-
-(in-package :cologne-phonetics)
+  (:use :common-lisp :cl-ppcre :split-sequence)
+  (:export #:ENCODE))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; EOF package.lisp
